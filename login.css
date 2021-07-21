@@ -1,0 +1,58 @@
+.libre-franklin{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+.login-area{
+    border-radius: 25px;
+    background-color: #363636;
+}
+body{
+    background-color: #eeeeee;
+}
+.input-username{
+    width:60%;
+}
+.button-login{
+    background: linear-gradient(to bottom right,#106caa , #aa1084);
+    width:20%;
+    color:#ffffff;
+    border-radius:25px;
+}
+.button-login:hover{
+    color:#dddddd;
+    background: linear-gradient(to bottom right,#0f5a8d , #8d0f6d);
+    
+}
+.send{
+    height:50px;
+    width:50px;
+    background-color: #eeeeee;
+    border-radius:25px;
+    margin-bottom: 30px;
+    border: none;
+}
+.image{
+    background-image: url("sendbutton-removebg-preview.png");
+    background-size:cover;
+    width:30px;
+    height:30px;
+    border:none;
+}
+.input-message{
+    margin-left: 400px;
+}
+.text-bold{
+    font-weight: 800;
+}
+.text-normal{
+    font-weight: inherit;
+}
+.message-text{
+    margin-left: 25px;
+}
+#messages{
+    overflow-y:scroll;
+    max-height:400px;
+}
